@@ -1,0 +1,5 @@
+###Intellij###
+.idea
+*.iml
+# Project exclude paths
+/out/
