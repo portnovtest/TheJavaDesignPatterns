@@ -6,19 +6,22 @@ class Monitor implements DisplayModule {
         System.out.println("Display through " + this.getClass().getSimpleName().toLowerCase());
     }
 }
+
 class Projector implements DisplayModule {
     @Override
     public void display() {
         System.out.println("Display through " + this.getClass().getSimpleName().toLowerCase());
     }
 }
+
 public class Computer {
     DisplayModule dm;
 
     public void setDisplayModule(DisplayModule dm) {
         this.dm = dm;
     }
-    public void display(){
+
+    public void display() {
         dm.display();
     }
 
