@@ -2,7 +2,8 @@ package com.javamasterclass.factoryabstractcreatorexample;
 
 public abstract class AbstractShapeFactory {
     protected abstract Shape factoryMethod();
-    public Shape getShape(){
+
+    public Shape getShape() {
         return factoryMethod();
     }
 

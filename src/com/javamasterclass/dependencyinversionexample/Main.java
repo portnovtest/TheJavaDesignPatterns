@@ -1,7 +1,7 @@
 package com.javamasterclass.dependencyinversionexample;
 
 interface DBConnectionInterface {
-     int connect();
+    int connect();
 }
 
 class MySqlConnection implements DBConnectionInterface {
